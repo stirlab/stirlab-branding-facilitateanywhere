@@ -8,7 +8,7 @@ config.privacyUrl = 'http://facilitateanywhere.com/privacy';
 config.supportUrl = 'http://facilitateanywhere.com/support';
 config.faqUrl = 'http://facilitateanywhere.com/faq';
 
-config.twitterUsername = 'CirclingEurope';
+config.twitterUsername = 'ThisOldPlant';
 
 config.email = {};
 config.email.event = {};
