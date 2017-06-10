@@ -52,6 +52,12 @@ db.sessions.push({
 	"hangout-url": "https://hangouts.google.com/hangouts/_/vrwapbspangf7oeoga7gta27vee",
 });
 
+var completedTasks = {
+   setDisplayName: 1496442154,
+   connectivityCheck: 1496442154,
+   instructionalVideoShort: 1496442154,
+};
+
 db.users = [];
 db.users.push({
   google_json: {
@@ -80,7 +86,7 @@ db.users.push({
   picture: "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
   provider: "google",
   superuser: true,
-  orientationStage: "complete",
+  completedTasks: completedTasks,
 });
 
 db.users.push({
@@ -110,7 +116,7 @@ db.users.push({
   perms: {
     joinEvents: true,
   },
-  orientationStage: "complete",
+  completedTasks: completedTasks,
 });
 
 db.users.push({
@@ -140,7 +146,7 @@ db.users.push({
   perms: {
     joinEvents: true,
   },
-  orientationStage: "complete",
+  completedTasks: completedTasks,
 });
 
 for (var num = 0; num <= 59; num++) {
@@ -177,7 +183,7 @@ for (var num = 0; num <= 59; num++) {
       picture: "https://connect.circleanywhere.com/public/img/custom/test-user-" + num + "-avatar.jpg",
       locale: "en",
     },
-    orientationStage: "complete",
+    completedTasks: completedTasks,
   });
 }
 
