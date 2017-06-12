@@ -15,6 +15,7 @@ config.email.event = {};
 config.email.event.register = 'fa-event-register';
 config.email.event.registerInvite = 'fa-event-register-invite';
 config.email.event.registerMessage = 'fa-event-register-message';
+config.email.event.facilitatorInvite = 'fa-event-facilitator-invite';
 
 config.template = {};
 

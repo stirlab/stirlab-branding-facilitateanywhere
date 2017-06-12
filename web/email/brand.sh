@@ -9,7 +9,8 @@ EMAIL_DIR=`dirname $0`
 
 template_names="event-register.html
 event-register-invite.html
-event-register-message.html"
+event-register-message.html
+event-facilitator-invite.html"
 
 for name in ${template_names}; do
   ${TEMPLATING_SCRIPT} ${EMAIL_DIR}/brand-config.sh ${TEMPLATES_DIR}/${name} ${EMAIL_DIR}/${name}
