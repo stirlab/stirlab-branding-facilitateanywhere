@@ -1,6 +1,11 @@
+    <% if (userIdForFacilitatorAgendaCalendar) { %>
         <p>
-            Click a <strong>Go to event</strong> link to join an event.
+            <a href="/events/agenda/user/<%= userIdForFacilitatorAgendaCalendar %>">
+              Agenda view for my events
+            </a>
         </p>
+    <% } else { %>
         <p>
             Click a <strong>Register</strong> link to register for an event.
         </p>
+    <% } %>
