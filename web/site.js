@@ -116,6 +116,7 @@ db.users.push({
   provider: "google",
   perms: {
     joinEvents: true,
+    memberOnce: true,
   },
   completedTasks: completedTasks,
 });
@@ -146,6 +147,7 @@ db.users.push({
   provider: "google",
   perms: {
     joinEvents: true,
+    memberOnce: true,
   },
   completedTasks: completedTasks,
 });
@@ -168,6 +170,7 @@ for (var num = 0; num <= 59; num++) {
     picture: "https://connect.circleanywhere.com/public/img/custom/test-user-" + num + "-avatar.jpg",
     perms: {
       joinEvents: true,
+      memberOnce: true,
     },
     provider: "google",
     name: {
