@@ -7,6 +7,7 @@ config.termsUrl = 'http://facilitateanywhere.com/terms';
 config.privacyUrl = 'http://facilitateanywhere.com/privacy';
 config.supportUrl = 'http://facilitateanywhere.com/support';
 config.faqUrl = 'http://facilitateanywhere.com/faq';
+config.techReportUrl = null;
 
 config.twitterUsername = 'ThisOldPlant';
 
